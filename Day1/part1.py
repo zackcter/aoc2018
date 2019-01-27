@@ -13,6 +13,6 @@ def process_sequence(filename):
     return partial_sum
 
 
-file_path = 'challenge_input.txt'
+file_path = 'challenge_input_2.txt'
 
 print(process_sequence(file_path))

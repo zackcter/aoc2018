@@ -2,7 +2,8 @@
 loop through the list given until you find the first repeat frequency.
 They will be marked positive or negative."""
 
-class Frequency_Store(object):
+
+class FrequencyStore(object):
     def __init__(self):
         self.history = []
         self.current_cumsum = 0
@@ -19,6 +20,7 @@ class Frequency_Store(object):
     def store(self):
         self.history.append(self.current_cumsum)
 
+
 def process_sequence(filename, freqs):
 
     while True:
@@ -31,8 +33,9 @@ def process_sequence(filename, freqs):
 
                 freqs.store()
 
-file_path = 'day1\\challenge_input.txt'
 
-bucket = Frequency_Store()
+file_path = 'challenge_input_2.txt'
+
+bucket = FrequencyStore()
 
 print(process_sequence(file_path, bucket))

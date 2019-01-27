@@ -5,6 +5,7 @@ part 2 is to return the letters in common between two strings that only differ b
 
 from collections import Counter
 
+
 class Inventory_manager(object):
     def __init__(self):
         # initialize counters for tracking the number of strings that have exactly 2 or 3 of any letter
@@ -50,7 +51,7 @@ class Inventory_manager(object):
         return 0
 
 
-input_file = 'day2\\challenge_input.txt'
+input_file = 'challenge_input_2.txt'
 
 im = Inventory_manager()
 

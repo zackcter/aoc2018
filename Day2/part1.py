@@ -29,7 +29,7 @@ class Inventory_manager(object):
                 
     
 
-input_file = 'day2\\challenge_input.txt'
+input_file = 'challenge_input_2.txt'
 
 im = Inventory_manager()
 
